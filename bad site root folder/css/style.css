@@ -1,0 +1,43 @@
+body {
+  background-image: url(../img/istockphoto-1133883179-612x612.jpg);
+  border-style: double;
+    border-width: 50px;
+    border-color: aquamarine;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d00202;
+}
+
+ul {
+    list-style-image: url(../img/119px-3D-brazilian-star-animated.gif);
+}
+
+li {
+    color:#d00202;
+    padding-left: 200px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: plum;
+}
+
+ul li {
+    list-style-position: inside;
+ }
+
+img {
+    border-style: dashed;
+    border-width: 20px;
+    border-color: blue;
+    border-left: -100px;
+}
+
+ .services img {
+    flex-basis: 50%; /* sets the width of the images */
+    padding: 50px 50px;
+  }
+
+.inoue {
+    padding-left: 500px;     
+}
